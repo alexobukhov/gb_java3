@@ -3,7 +3,7 @@ package lesson1;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Box<T> {
+public class Box<T extends Fruit> {
 
     private List<T> fruits;
 
